@@ -33,7 +33,7 @@ export default function News() {
                         <img src={product?.avatar} alt="" />
                         <h1 className="text-[22px] font-bold">{product?.name}</h1>
                         <h3 className="text-[12px]">{product?.createAt}</h3>
-                        <h2>ID: {product?.id}</h2>
+                        {/* <h2>ID: {product?.id}</h2> */}
                         <Link to={`/news/${product?.id}`}>
                             <button>update</button>
                         </Link>
