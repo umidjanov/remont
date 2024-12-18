@@ -49,7 +49,7 @@ export function NavbarDefault() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="flex items-center gap-x-2 p-1 font-medium  hover:bg-[#0B1427]"
+        className="flex items-center gap-x-2 p-1 font-medium  hover:bg-[#E7742E]"
       >
         <svg
           width="16"
